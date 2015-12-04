@@ -49,7 +49,8 @@ PKG_CHECK_MODULES(SCREENSHOT,
                   glib-2.0 >= $GLIB_MIN_VERSION
                   gtk+-3.0 >= $GTK_MIN_VERSION
                   libcanberra-gtk3
-                  libcurl)
+                  libcurl
+                  json-glib-1.0)
 
 AC_CONFIG_FILES([
 Makefile

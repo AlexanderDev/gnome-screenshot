@@ -39,6 +39,8 @@
 #include "screenshot-utils.h"
 #include "screenshot-dialog.h"
 
+#include "send_to_telegram.h"
+
 #define SCREENSHOOTER_ICON "applets-screenshooter"
 
 #define LAST_SAVE_DIRECTORY_KEY "last-save-directory"
@@ -421,7 +423,7 @@ screenshot_dialog_response_cb (ScreenshotResponse response,
       
       // Send to telegram code
     case SCREENSHOT_RESPONSE_SEND_TELEGRAM:
-      printf("Hello world\n");
+      send_telegram();
       // screenshot_save_to_clipboard (self);
       break;
     default:
