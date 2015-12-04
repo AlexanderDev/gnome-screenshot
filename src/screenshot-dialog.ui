@@ -69,7 +69,7 @@
           </object>
           <packing>
             <property name="left_attach">0</property>
-            <property name="top_attach">3</property>
+            <property name="top_attach">2</property>
             <property name="width">3</property>
             <property name="height">1</property>
           </packing>
@@ -99,7 +99,7 @@
             <property name="left_attach">0</property>
             <property name="top_attach">0</property>
             <property name="width">1</property>
-            <property name="height">3</property>
+            <property name="height">2</property>
           </packing>
         </child>
         <child>
@@ -135,21 +135,6 @@
           </packing>
         </child>
         <child>
-          <object class="GtkEntry" id="telegram_acc">
-            <property name="visible">True</property>
-            <property name="can_focus">True</property>
-            <property name="valign">start</property>
-            <property name="activates_default">True</property>
-            <property name="text" translatable="no">Alex Ander</property>
-          </object>
-          <packing>
-            <property name="left_attach">2</property>
-            <property name="top_attach">1</property>
-            <property name="width">1</property>
-            <property name="height">1</property>
-          </packing>
-        </child>
-        <child>
           <object class="GtkFileChooserButton" id="save_widget">
             <property name="visible">True</property>
             <property name="can_focus">False</property>
@@ -160,7 +145,7 @@
           </object>
           <packing>
             <property name="left_attach">2</property>
-            <property name="top_attach">2</property>
+            <property name="top_attach">1</property>
             <property name="width">1</property>
             <property name="height">1</property>
           </packing>
@@ -173,23 +158,6 @@
             <property name="valign">start</property>
             <property name="label" translatable="yes">Save in _folder:</property>
             <property name="use_underline">True</property>
-          </object>
-          <packing>
-            <property name="left_attach">1</property>
-            <property name="top_attach">2</property>
-            <property name="width">1</property>
-            <property name="height">1</property>
-          </packing>
-        </child>
-        <child>
-          <object class="GtkLabel" id="label4">
-            <property name="visible">True</property>
-            <property name="can_focus">False</property>
-            <property name="halign">start</property>
-            <property name="valign">start</property>
-            <property name="label" translatable="yes">_Telegram_acc:</property>
-            <property name="use_underline">True</property>
-            <property name="mnemonic_widget">telegram_acc</property>
           </object>
           <packing>
             <property name="left_attach">1</property>

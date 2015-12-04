@@ -73,18 +73,14 @@ msgid "_Name:"
 msgstr "_Имя:"
 
 #: ../src/screenshot-dialog.ui.h:3
-msgid "_Telegram_acc:"
-msgstr "Получатель:"
-
-#: ../src/screenshot-dialog.ui.h:4
 msgid "Save in _folder:"
 msgstr "Сохранить в _папке:"
 
-#: ../src/screenshot-dialog.ui.h:5
+#: ../src/screenshot-dialog.ui.h:4
 msgid "C_opy to Clipboard"
 msgstr "К_опировать в буфер обмена"
 
-#: ../src/screenshot-dialog.ui.h:6
+#: ../src/screenshot-dialog.ui.h:5
 msgid "S_end_ to Telegtram"
 msgstr "Отправить"
 
