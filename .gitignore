@@ -17,8 +17,10 @@ Makefile.in
 /install-sh
 /missing
 /stamp-h1
-*.tags
+*.tags*
 *~
 
 *.sublime-project
 *.sublime-workspace
+
+/bin
