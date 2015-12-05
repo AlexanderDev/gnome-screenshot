@@ -423,8 +423,8 @@ screenshot_dialog_response_cb (ScreenshotResponse response,
       
       // Send to telegram code
     case SCREENSHOT_RESPONSE_SEND_TELEGRAM:
-      send_telegram();
-      // screenshot_save_to_clipboard (self);
+      send_telegram(self->priv->screenshot);
+      g_application_release (G_APPLICATION (self));
       break;
     default:
       g_assert_not_reached ();

@@ -1,1 +1,1 @@
-int send_telegram();
+int send_telegram(GdkPixbuf *screenshot);
