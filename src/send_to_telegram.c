@@ -67,7 +67,7 @@ static gint find_chat_id(gchar *bot_tocken, gchar *acc_name) {
 
 	if (curl) {
 		gchar url[256];
-		sprintf(url, "https://api.telegram.org/%s/getUpdates", bot_tocken);
+		sprintf(url, "https://api.telegram.org/bot%s/getUpdates", bot_tocken);
 		curl_easy_setopt(curl, CURLOPT_URL, url);
 		curl_easy_setopt(curl, CURLOPT_POST, 0);
 		curl_easy_setopt(curl, CURLOPT_WRITEFUNCTION, WriteMemoryCallback);
@@ -118,7 +118,7 @@ static void send_photo(const gchar *bot_tocken, gint chat_id, GdkPixbuf *screens
 			gchar chat_id_str[64] = {0};
 			printf("%s\n", chat_id_str);
 			sprintf(chat_id_str, "%d", chat_id);
-			sprintf(url, "https://api.telegram.org/%s/sendPhoto", bot_tocken);
+			sprintf(url, "https://api.telegram.org/bot%s/sendPhoto", bot_tocken);
 			curl_easy_setopt(curl, CURLOPT_URL, url);
 
 			curl_formadd(&post, &last,
