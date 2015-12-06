@@ -82,7 +82,7 @@ msgstr "К_опировать в буфер обмена"
 
 #: ../src/screenshot-dialog.ui.h:5
 msgid "S_end_ to Telegtram"
-msgstr "Отправить в Tелеграм"
+msgstr "Отправить в чат"
 
 #: ../src/org.gnome.gnome-screenshot.gschema.xml.in.h:1
 msgid "Window-specific screenshot (deprecated)"
